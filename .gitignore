@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# data/raw/ and data/processed/ ARE committed: they are small public FRED
+# pulls and committing them freezes the exact data vintage, so the analysis
+# is reproducible offline and a reviewer can re-run it without hitting FRED.
